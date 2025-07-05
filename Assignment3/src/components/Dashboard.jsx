@@ -246,9 +246,9 @@ export default function Dashboard() {
 
           <div className="shadow-2xl py-2">
             {activeView === "list" ? (
-              <div className="overflow-x-auto px-2 py-4">
-                <div className="min-w-full overflow-x-scroll rounded-lg">
-                  <table className="min-w-[600px] text-sm text-center">
+              <div className="w-full overflow-auto px-2 py-4">
+                <div className="min-w-full overflow-x-auto">
+                  <table className="min-w-full text-sm text-center border-collapse">
                     <thead className="border-b border-b1 bg-gray-50">
                       <tr>
                         <th className="py-3 font-semibold px-2">
