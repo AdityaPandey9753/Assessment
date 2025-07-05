@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import "tailwindcss";
+@theme {
+  --font-display: "Poppins", "sans-serif";
+  --breakpoint-3xl: 120rem;
+  --color-avocado-100: oklch(0.99 0 0);
+  --color-avocado-200: oklch(0.98 0.04 113.22);
+  --color-avocado-300: oklch(0.94 0.11 115.03);
+  --color-avocado-400: oklch(0.92 0.19 114.08);
+  --color-avocado-500: oklch(0.84 0.18 117.33);
+  --color-avocado-600: oklch(0.53 0.12 118.34);
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  --color-bg1: rgba(0, 33, 44, 1);
+  --color-h1: rgba(255, 255, 255, 0.25);
+  --color-bgMain: rgba(248, 250, 252, 1);
+  --color-t1: rgba(0, 41, 44, 1);
+  --color-b1: rgba(222, 226, 230, 1);
+  --color-t2: rgba(115, 123, 131, 1);
+  --color-iconBg1: rgba(241, 236, 249, 1);
+  --color-iconBg2: rgba(232, 241, 255, 1);
+  --color-iconBg3: rgba(255, 249, 235, 1);
+  --color-iconBg4: rgba(235, 246, 236, 1);
+  --color-iconBg5: rgba(253, 235, 237, 1);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
