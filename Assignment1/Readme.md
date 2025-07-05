@@ -138,5 +138,4 @@ Response:
 ---
 
 Author<br>
-Aditya Pandey
-Full-stack Developer | Django | React | AI-ML Enthusiast
+Aditya Pandey | Full-stack Developer | Django | React | AI-ML Enthusiast
