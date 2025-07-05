@@ -1,5 +1,6 @@
 # LeXi AI – Legal Case Management Dashboard (Assessment)
 
+live url - [URL](https://assessment-rouge-psi.vercel.app/)<br>
 This is a **responsive legal case management dashboard** built using **React** and **Tailwind CSS**. It supports multiple views, searchable workspaces, and modal-based interaction for case uploads and summaries.
 
 ---
